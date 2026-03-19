@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página de Prueba de Clic</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; }
+    #status { margin-top: 20px; color: green; }
+  </style>
+</head>
+<body>
+  <h1>Test de automatización</h1>
+  <p>Haz clic en el botón desde un script y verá el cambio de texto.</p>
+  <button id="botonPrueba">Pulsar botón</button>
+  <div id="status">Esperando clic...</div>
+
+  <script>
+    const boton = document.getElementById('botonPrueba');
+    const status = document.getElementById('status');
+
+    boton.addEventListener('click', () => {
+      status.textContent = 'Botón clicado correctamente: ' + new Date().toLocaleString();
+    });
+  </script>
+</body>
+</html>
