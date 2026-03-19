@@ -16,7 +16,7 @@
 
 ## 4) Ejecución básica
 1. Abrir PowerShell en `K:` o `C:`.
-2. `cd "C:\Users\carmijos.ext\Desktop\VSC-Workspace\Automatizacion"`
+2. `cd "C:\Workspace\Automatizacion"`
 3. `python autoclick_test.py`
 
 ## 5) Pasos siguientes para suspender/activar

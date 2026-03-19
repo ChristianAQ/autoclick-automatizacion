@@ -11,7 +11,7 @@ selector = "#btnrefrescar"
 chromedriver_path = r"C:\chromedriver\chromedriver.exe"  # pon ruta correcta a chromedriver
 
 delay_seconds = 1800  # 30 minutos
-delay_test = 70  # para pruebas rápidas, usa 10s y luego cambia a 1800
+delay_test = 10  # para pruebas rápidas, usa 10s y luego cambia a 1800
 
 print("Iniciando navegador (versión 2)...")
 options = webdriver.ChromeOptions()

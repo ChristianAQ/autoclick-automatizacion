@@ -6,8 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 
 # Ajusta estos valores
-html_file = r"C:\Users\carmijos.ext\Desktop\VSC-Workspace\Automatizacion\testpage.html"
-selector = "#botonPrueba"
+html_file = r"C:\Workspace\Automatizacion\testpage.html"
+selector = "#botonPrueba" # id del botón en el HTML
 chromedriver_path = r"C:\chromedriver\chromedriver.exe"  # pon ruta correcta a chromedriver
 
 delay_seconds = 1800  # 30 minutos
